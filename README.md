@@ -10,21 +10,22 @@ Formal descriptions of what needs to be built, commonly categorized as functiona
 
 Functional requirements are the behaviors and features a software application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
-### Core
 - Users can create items from the TODO list
-- Users can delete items from the TODO list
 - Users can mark item as complete
 
-### Additional
+## Non-Functional
+
+Features that enhance the application's functionality or user experience but are not critical to its core operation or usability.
+
 - Users can update items from the TODO list
 - Users can filter tasks via category (completed, priority, date, alpha, etc...)
 - Users can set priority on items
 - Users can set deadlines
-
-## Non-Functional
+- Users can delete items from the TODO list
 - Users can login and view a personal TODO list
 
 ## Constraints
+
 - Must store tasks so they persist between sessions (e.g., using localStorage, a database, or cloud syncing)
 
 # Architecture Design
@@ -33,10 +34,10 @@ Functional requirements are the behaviors and features a software application mu
 
 ## High Level Design / Component Tree
 
-## Sequence Diagram / Userflows
+## Sequence Diagram / User-flows
 
-# Data Model 
+# Data Model / State Design
 
-# Interface/API Model
+# Interface Definitions / API / State
 
-# Optimizations/Performance
+# Optimizations / Performance
