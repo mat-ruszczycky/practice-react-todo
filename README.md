@@ -14,17 +14,17 @@ Formal descriptions of what needs to be built, commonly categorized as functiona
 The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Core Behaviors &amp; Features:
+- User authentication to access a personalized TODO list.
 - Users can read a list of personal TODO items.
 - Users can create TODO items to the list.
 - Users can mark TODO items on the list as complete.
 
 ### Optional Behaviors &amp; Features:
 - Edit TODO items (e.g., update title, description, or details).
-- Filter tasks by attributes like completion status, priority, due date, or alphabetical order.
 - Assign priority levels to TODO items.
-- Set deadlines for tasks.
+- Set deadlines for TODO items.
 - Delete TODO items from the list.
-- User authentication to access a personalized TODO list.
+- Filter TODO items by attributes like status, priority, due date, or alphabetical order.
 
 ## Non-Functional Requirements
 Specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
