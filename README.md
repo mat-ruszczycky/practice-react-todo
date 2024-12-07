@@ -10,7 +10,7 @@ Repository for practicing React and front-end system design using a TODO app as 
 # Requirements
 Formal descriptions of what needs to be built, commonly categorized as functional, non-functional, and constraints.
 
-## Functional Requirements
+## Functional
 The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Core Behaviors &amp; Features:
@@ -26,7 +26,7 @@ The behaviors and features an application must have. They specify what the syste
 - Delete TODO items from the list.
 - Filter TODO items by attributes like status, priority, due date, or alphabetical order.
 
-## Non-Functional Requirements
+## Non-Functional
 Specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
 
 ### Core Attributes:
@@ -52,10 +52,13 @@ Constraints define the limitations within which the system must operate.
 # Architecture Design
 
 ## UI Mock-up
+![FPO](./docs/images/fpo.png)
 
 ## High Level Design / Component Tree
+![FPO](./docs/images/fpo.png)
 
 ## Sequence Diagram / User-flows
+![FPO](./docs/images/fpo.png)
 
 # Data Model / State Design
 
