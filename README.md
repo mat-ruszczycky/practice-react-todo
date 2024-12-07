@@ -12,31 +12,48 @@ Repository for practicing React and front-end system design using a TODO app as 
 
 Formal descriptions of what needs to be built, commonly categorized as functional requirements, non-functional requirements, and constraints.
 
-## Functional
+## Functional Requirements
 
-Functional requirements are the behaviors and features a software application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
+Functional requirements define the essential behaviors and features that the software must provide to fulfill user needs. They describe what the system must do based on user actions, events, and business processes.
 
-- Users can create items from the TODO list
-- Users can mark item as complete
+### Core Features:
+- Users can create TODO items in a list.
+- Users can mark TODO items as complete.
 
-## Non-Functional
+### Optional Features:
+- Edit TODO items (e.g., update title, description, or details).
+- Filter tasks by attributes like completion status, priority, due date, or alphabetical order.
+- Assign priority levels to TODO items.
+- Set deadlines for tasks.
+- Delete TODO items from the list.
+- User authentication to access a personalized TODO list.
 
-Features that enhance the application's functionality or user experience but are not critical to its core operation or usability.
+## Non-Functional Requirements
 
-- Users can update items from the TODO list
-- Users can filter tasks via category (completed, priority, date, alpha, etc...)
-- Users can set priority on items
-- Users can set deadlines
-- Users can delete items from the TODO list
-- Users can login and view a personal TODO list
+Non-functional requirements specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
+
+- The app must be responsive and functional across desktop and mobile devices.
+- User interactions should have minimal response times.
+- The backend should be scalable to accommodate increasing numbers of users and tasks.
+- User data must be securely stored, following best practices for encryption and data privacy.
+
+Optional:
+- Accessibility compliance (e.g., WCAG standards).
+- High availability and fault tolerance to ensure uptime.
 
 ## Constraints
 
-- Must store tasks so they persist between sessions (e.g., using localStorage, a database, or cloud syncing)
+Constraints define the limitations within which the system must operate.
+
+- Tasks must persist between sessions using methods like `localStorage`, a database, or cloud syncing.
+- Source code must be stored on GitHub.
+- Deployment must utilize AWS services.
+- The project must operate within a limited budget and be open-source.
+- The application is web-based only and will not include native iOS or Android versions.
 
 # Architecture Design
 
-## UI Mockup
+## UI Mock-up
 
 ## High Level Design / Component Tree
 
