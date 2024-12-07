@@ -14,7 +14,7 @@ Formal descriptions of what needs to be built, commonly categorized as functiona
 
 ## Functional Requirements
 
-Functional requirements define the essential behaviors and features that the software must provide to fulfill user needs. They describe what the system must do based on user actions, events, and business processes.
+Functional requirements are the behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Core Features:
 - Users can create TODO items in a list.
