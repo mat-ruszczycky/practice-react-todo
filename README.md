@@ -14,8 +14,9 @@ Formal descriptions of what needs to be built, commonly categorized as functiona
 The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Core:
-- Users can create TODO items in a list.
-- Users can mark TODO items as complete.
+- Users can read a list of personal TODO items.
+- Users can create TODO items to the list.
+- Users can mark TODO items on the list as complete.
 
 ### Optional:
 - Edit TODO items (e.g., update title, description, or details).
