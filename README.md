@@ -50,6 +50,7 @@ Constraints define the limitations within which the system must operate.
 - The application is web-based only and will not include native iOS or Android versions.
 
 # Architecture Design
+Identify the essential components of the product and analyze their interconnections.
 
 ## UI Mock-up
 ![FPO](./docs/images/fpo.png)
