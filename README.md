@@ -1,17 +1,17 @@
 # Practice React TODO App
 
-Repo for react and Front End system design practice using TODO app
-
+Repository for practicing React and front-end system design using a TODO app as the subject.
 
 # Requirements
 
 ## Functional
 
+Functional requirements are formal descriptions of the behaviors and features a software application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
+
 ### Core
 - Users can create items from the TODO list
 - Users can delete items from the TODO list
 - Users can mark item as complete
-
 
 ### Additional
 - Users can update items from the TODO list
@@ -19,14 +19,11 @@ Repo for react and Front End system design practice using TODO app
 - Users can set priority on items
 - Users can set deadlines
 
-
 ## Non-Functional
 - Users can login and view a personal TODO list
 
-
 ## Constraints
 - Must store tasks so they persist between sessions (e.g., using localStorage, a database, or cloud syncing)
-
 
 # Architecture Design
 
@@ -36,11 +33,8 @@ Repo for react and Front End system design practice using TODO app
 
 ## Sequence Diagram / Userflows
 
-
 # Data Model 
 
-
 # Interface/API Model
-
 
 # Optimizations/Performance
