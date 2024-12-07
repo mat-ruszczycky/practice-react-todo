@@ -13,12 +13,12 @@ Formal descriptions of what needs to be built, commonly categorized as functiona
 ## Functional Requirements
 The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
-### Core Features:
+### Core Behaviors &amp; Features:
 - Users can read a list of personal TODO items.
 - Users can create TODO items to the list.
 - Users can mark TODO items on the list as complete.
 
-### Optional Features:
+### Optional Behaviors &amp; Features:
 - Edit TODO items (e.g., update title, description, or details).
 - Filter tasks by attributes like completion status, priority, due date, or alphabetical order.
 - Assign priority levels to TODO items.
@@ -29,13 +29,13 @@ The behaviors and features an application must have. They specify what the syste
 ## Non-Functional Requirements
 Specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
 
-### Core Features:
+### Core Attributes:
 - The app must be responsive and functional across desktop and mobile devices.
 - User interactions should have minimal response times.
 - The back-end should be scalable to accommodate increasing numbers of users and tasks.
 - User data must be securely stored, following best practices for encryption and data privacy.
 
-### Optional Features:
+### Optional Attributes:
 - Accessibility compliance (e.g., WCAG standards).
 - High availability and fault tolerance to ensure uptime.
 
