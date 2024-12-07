@@ -31,7 +31,7 @@ Non-functional requirements specify the quality attributes that enhance the appl
 ### Core:
 - The app must be responsive and functional across desktop and mobile devices.
 - User interactions should have minimal response times.
-- The backend should be scalable to accommodate increasing numbers of users and tasks.
+- The back-end should be scalable to accommodate increasing numbers of users and tasks.
 - User data must be securely stored, following best practices for encryption and data privacy.
 
 ### Optional:
@@ -41,7 +41,8 @@ Non-functional requirements specify the quality attributes that enhance the appl
 ## Constraints
 Constraints define the limitations within which the system must operate.
 
-- Tasks must persist between sessions using methods like `localStorage`, a database, or cloud syncing.
+- Tasks must persist between sessions using methods like `localStorage`, database, or cloud.
+- App doesn’t support offline mode, requires a stable internet connection.
 - Source code must be stored on GitHub.
 - Deployment must utilize AWS services.
 - The project must operate within a limited budget and be open-source.
