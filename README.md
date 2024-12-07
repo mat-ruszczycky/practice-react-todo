@@ -4,6 +4,9 @@ Repository for practicing React and front-end system design using a TODO app as 
 
 - https://www.greatfrontend.com/system-design
 - https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems
+- https://www.youtube.com/@shivam_bhalla
+- https://www.youtube.com/@FrontEndEngineer
+- https://www.youtube.com/@d.zhiganov
 
 # Requirements
 
