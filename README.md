@@ -8,10 +8,10 @@ Repository for practicing React and front-end system design using a TODO app as 
 - https://www.youtube.com/@d.zhiganov
 
 # Requirements
-Formal descriptions of what needs to be built, commonly categorized as functional requirements, non-functional requirements, and constraints.
+Formal descriptions of what needs to be built, commonly categorized as functional, non-functional, and constraints.
 
 ## Functional Requirements
-Functional requirements are the behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
+The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Core:
 - Users can create TODO items in a list.
@@ -26,7 +26,7 @@ Functional requirements are the behaviors and features an application must have.
 - User authentication to access a personalized TODO list.
 
 ## Non-Functional Requirements
-Non-functional requirements specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
+Specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
 
 ### Core:
 - The app must be responsive and functional across desktop and mobile devices.
