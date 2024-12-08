@@ -62,7 +62,7 @@ Similar to using "napkin math" for constraints, a "napkin sketch" can be used to
 
 ![FPO](./docs/images/fpo.png)
 
-## High Level Diagram / Component Tree (Dependency Graph)
+## High Level / Component Tree (Dependency Graph) Diagram(s)
 Depending on chosen design pattern(s) of the application, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
 Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
@@ -86,7 +86,7 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
 </App>
 ```
 
-## Sequence Diagram / User-flows
+## Sequence / User-flows Diagram(s)
 TBD...
 
 ![FPO](./docs/images/fpo.png)
