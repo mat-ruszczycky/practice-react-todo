@@ -121,34 +121,51 @@ TBD...
 ### GET
 
 #### Request(s)
-TBD...
+```jsx
+TBD
+```
 
 #### Response(s)
-TBD...
+```jsx
+TBD
+```
+
 
 ### POST
 
 #### Request(s)
-TBD...
+```jsx
+TBD
+```
 
 #### Response(s)
-TBD...
+```jsx
+TBD
+```
 
 ### PUT
 
 #### Request(s)
-TBD...
+```jsx
+TBD
+```
 
 #### Response(s)
-TBD...
+```jsx
+TBD
+```
 
 ### DELETE
 
 #### Request(s)
-TBD...
+```jsx
+TBD
+```
 
 #### Response(s)
-TBD...
+```jsx
+TBD
+```
 
 # Optimization(s)
 TBD...
