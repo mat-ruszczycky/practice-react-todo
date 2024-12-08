@@ -38,7 +38,7 @@ Describes the quality attributes of the application's/system's usability, reliab
 - The app/system must be accessible via a profile or authentication for user(s).
 - The app/system must be responsive and functional across desktop and mobile devices.
 - The app/system must be have minimal response times.
-- The app/system must be have a Back-End that is scalable to accommodate increasing users and tasks.
+- The app/system must have a Back-End that is scalable to accommodate increasing users and tasks.
 - The app/system must be securely stored for user(s) data; following best practices for encryption and data privacy.
 
 ### Optional Attributes:
