@@ -46,14 +46,16 @@ Describes the quality attributes of the application's/system's usability, reliab
 - The app/system should track/display the number of items.
 
 ## Constraints
-Limitations which the system must operate within. "Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other quantitative factors.
+Limitations the system needs to operate within. 
+
+"Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other factors.
 
 - The app/system needs data to persist using methods like `localStorage`, database, or cloud services.
-- The app/system needs a stable internet connection, does NOT support offline mode (PWA).
-- The app/system needs it source code stored on GitHub.
-- The app/system needs to utilize AWS services for CI/CD in addition to other micro services.
-- The app/system needs to operate within a limited budget, thus be open-source.
-- The app/system needs to be web-based only and will not support native iOS or Android.
+- The app/system needs a stable internet connection, does NOT support offline (PWA).
+- The app/system needs the source code stored on GitHub.
+- The app/system needs to utilize AWS services for CI/CD in addition to micro services.
+- The app/system needs to operate within a limited budget.
+- The app/system needs to be web-based and will not support native iOS or Android.
 
 # 02. Architecture
 Identify the essential pieces of the application/system and analyze the relationships to one another.
