@@ -138,12 +138,12 @@ Outlines the step-by-step flow user(s) take to work within the application/syste
 ![FPO](./docs/images/fpo.png)
 
 # 03. Data Model
-Describe the various data entities and their fields that can exist on the Client, Server or both.
+Various data entities and their fields that can exist on the Client, Server or both.
 
-## Cache / DB Store
-| Entity       | Source        | Belongs to   | Fields                            |
-|:-------------|:--------------|:-------------|:-----------------------------------
-| Users        | Client/Server | Client Store | `id,` `name`, `profile_photo_url` |
+This can be done with tables....
+
+## Storage
+TBD..
 
 ## State(s)
 TBD..
@@ -151,22 +151,11 @@ TBD..
 ## Prop(s)
 TBD..
 
+# 04. Interface
+Defined interactions between components in the application/product, functionality of the various APIs, their parameters and responses. 
 
-# 04. Interface Definition(s)
-Define the interface (interact) between components in the product, functionality of the various APIs, their parameters and responses. API is an overloaded term and generally refer to the protocol which software components communicate and request/send data between components. Client and server communicate via network layer APIs (HTTP/WebSockets). Client components generally communicate via functions in the browser runtime. All APIs have three things in common whether they are between the server and the client or between client components:
-
-## Server Side - Client
-| Field        | Value                         |
-|:-------------|:------------------------------|
-| HTTP Method  | GET                           |
-| Path         | `/tasks`                      |
-| Description  | Fetched the tasks for a user. |
-
-### Parameters
-| Parameter    | Type                          | Description                |
-|:-------------|:------------------------------|:---------------------------|
-| size         | number                        | Number of results per page |
-
+## Server - Client
+TBD..
 
 #### Response
 ```json
