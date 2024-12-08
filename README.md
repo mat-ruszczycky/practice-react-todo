@@ -66,6 +66,8 @@ Similar to "napkin math" of constraints, a "napkin sketch" can be used to wire-f
 ## High Level / Component Tree (Dependency Graph) Diagram(s)
 Depending on chosen frameworks/libs of the application/system, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
+[FPO](./docs/images/fpo.png)
+
 Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based (React, Svelte, Angular, etc...) architecture. 
 
 ![FPO](./docs/images/fpo.png)
