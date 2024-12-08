@@ -103,22 +103,22 @@ TBD...
 TBD...use tables
 
 ## Cache / DB Store
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
+| Header 1     | Header 2     | Header 3     |
+|:-------------|:-------------|:-------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 ## State(s)
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
+| Header 1     | Header 2     | Header 3     |
+|:-------------|:-------------|:-------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 ## Prop(s)
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
+| Header 1     | Header 2     | Header 3     |
+|:-------------|:-------------|:-------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
