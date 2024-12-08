@@ -48,14 +48,41 @@ Describes the quality attributes of the application's/system's usability, reliab
 ## Constraints
 Limitations the system needs to operate within. 
 
-"Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other factors.
-
 - The app/system needs data to persist using methods like `localStorage`, database, or cloud services.
 - The app/system needs a stable internet connection, does NOT support offline (PWA).
 - The app/system needs the source code stored on GitHub.
 - The app/system needs to utilize AWS services for CI/CD in addition to micro services.
 - The app/system needs to operate within a limited budget.
 - The app/system needs to be web-based and will not support native iOS or Android.
+
+"Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other factors.
+
+```
+**User Estimates**
+- **Daily Active Users (DAU)**: Assume 100 users in the initial phase.
+- **Todos Created per User**: Each user creates 5 todos per day.  
+  - **Total Todos per Day**:  
+    \( 100 \text{ users} \times 5 \text{ todos per user} = 500 \text{ todos/day} \).
+
+**Storage Estimates**
+- **Todo Data**: Assume each todo has:  
+  - `id`: 4 bytes (integer).  
+  - `text`: 100 characters max (100 bytes).  
+  - `completed`: 1 byte (boolean).  
+  - Metadata (e.g., timestamps): 8 bytes.
+
+**API Load**
+- **Todo Fetches**: Assume users fetch their todo lists 5 times daily.  
+  - **API Calls for Fetching**:  
+    \( 100 \text{ users} \times 5 \text{ fetches/user/day} = 500 \text{ API calls/day} \).  
+
+- **Todo Additions**: Assume users add todos 5 times daily.  
+  - **API Calls for Adding**:  
+    \( 100 \text{ users} \times 5 \text{ adds/user/day} = 500 \text{ API calls/day} \).  
+
+- **Total API Calls Per Day**:  
+  \( 500 \text{ fetches/day} + 500 \text{ adds/day} = 1,000 \text{ API calls/day} \).
+```
 
 # 02. Architecture
 Identify the essential pieces of the application/system and analyze the relationships to one another.
