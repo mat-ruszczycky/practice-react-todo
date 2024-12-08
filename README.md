@@ -118,36 +118,36 @@ TBD...
 ## API
 TBD...
 
-## GET
+### GET
 
-### Request(s)
+#### Request(s)
 TBD...
 
-### Response(s)
+#### Response(s)
 TBD...
 
-## POST
+### POST
 
-### Request(s)
+#### Request(s)
 TBD...
 
-### Response(s)
+#### Response(s)
 TBD...
 
-## PUT
+### PUT
 
-### Request(s)
+#### Request(s)
 TBD...
 
-### Response(s)
+#### Response(s)
 TBD...
 
-## DELETE
+### DELETE
 
-### Request(s)
+#### Request(s)
 TBD...
 
-### Response(s)
+#### Response(s)
 TBD...
 
 # Optimization(s)
