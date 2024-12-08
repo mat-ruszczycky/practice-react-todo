@@ -132,7 +132,7 @@ TBD...
 ## API
 TBD...
 
-### GET
+### GET:
 
 #### Request(s)
 ```jsx
@@ -144,20 +144,7 @@ TBD
 TBD
 ```
 
-
-### POST
-
-#### Request(s)
-```jsx
-TBD
-```
-
-#### Response(s)
-```jsx
-TBD
-```
-
-### PUT
+### POST:
 
 #### Request(s)
 ```jsx
@@ -169,7 +156,19 @@ TBD
 TBD
 ```
 
-### DELETE
+### PUT:
+
+#### Request(s)
+```jsx
+TBD
+```
+
+#### Response(s)
+```jsx
+TBD
+```
+
+### DELETE:
 
 #### Request(s)
 ```jsx
