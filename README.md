@@ -10,39 +10,38 @@ Credit to following sources for research into process:
 - https://www.youtube.com/@d.zhiganov
 
 # Requirements
-Formal descriptions of what needs to be built, commonly categorized as functional, non-functional, and constraints.
+Descriptions of what needs to be built, commonly categorized as functional, non-functional, and constraints.
 
 ## Functional
-The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
+Behaviors and features an application must have. Specifies what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Required Behaviors &amp; Features:
-- User profile/authentication to access a personalized TODO list.
-- Users can read a list of personal TODO items.
-- Users can create TODO items to the list.
-- Users can mark TODO items on the list as complete.
+- User(s) must access a profile or authentication to access a personalized TODO list.
+- User(s) can read a list of personal TODO items.
+- User(s) can create TODO items to the list.
+- User(s) can mark TODO items on the list as complete.
 
 ### Optional Behaviors &amp; Features:
-- Edit TODO items (e.g., update title, description, or details).
-- Assign priority levels to TODO items.
-- Set deadlines for TODO items.
-- Delete TODO items from the list.
-- Filter TODO items by attributes like status, priority, due date, or alphabetical order.
+- User(s) can edit TODO items (e.g., update title, description, or details).
+- User(s) can assign priority levels to TODO items.
+- User(s) can set deadlines for TODO items.
+- User(s) can delete TODO items from the list.
+- User(s) can filter TODO items by status, priority, due date, or alphabetical order.
 
 ## Non-Functional
-Specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
+Specifies the quality attributes to enhance the application's usability, reliability, and performance but are not critical for basic operations.
 
 ### Required Attributes:
 - The app must be responsive and functional across desktop and mobile devices.
-- User interactions should have minimal response times.
-- The back-end should be scalable to accommodate increasing numbers of users and tasks.
-- User data must be securely stored, following best practices for encryption and data privacy.
+- The app must be have minimal response times.
+- The app must be have a Back-End that is scalable to accommodate increasing users and tasks.
+- The app must be securely stored for user(s) data; following best practices for encryption and data privacy.
 
 ### Optional Attributes:
-- Accessibility compliance (e.g., WCAG standards).
-- High availability and fault tolerance to ensure uptime.
+- The app should be accessibility compliant (e.g., WCAG standards).
 
 ## Constraints
-Constraints define the limitations within which the system must operate.
+Constraints define the limitations which the system must operate within.
 
 - Tasks must persist between sessions using methods like `localStorage`, database, or cloud.
 - App doesn’t support offline mode, requires a stable internet connection.
@@ -53,15 +52,15 @@ Constraints define the limitations within which the system must operate.
 - "Napkin math" can also be used to identify constraints that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
 
 # Architecture Design
-Identify the essential components of the product and analyze their interconnections.
+Identify the essential components of the product and analyze their relationships to one another.
 
 ## UI Mock-up aka Wire-frame
-Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly sketch or wireframe an application’s UI, helping to better visualize and provide overview of the system.
+Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly wire-frame an application’s UI, to better visualize overview of the application’s system.
 
 ![FPO](./docs/images/fpo.png)
 
 ## High Level Design / Component Tree (Graph)
-Depending on the chosen technical design pattern for the application, you may opt to create a high-level diagram tailored to traditional patterns such as MVC or MVVM. 
+Depending on the chosen design pattern(s) for the application, using a high-level diagram tailored to traditional patterns such as MVC or MVVM is best. 
 
 Or, the diagram can take the form of a tree (graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based architecture. 
 
