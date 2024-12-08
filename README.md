@@ -27,6 +27,7 @@ Behaviors and features an application must have. Specifies what the system shoul
 - User(s) could be able to set deadlines for TODO items.
 - User(s) could be able to delete TODO items from the list.
 - User(s) could be able to filter TODO items by status, priority, due date, or alphabetical order.
+- User(s) could be able to swtich between different views.
 
 ## Non-Functional
 Specifies the quality attributes to enhance the application's usability, reliability, and performance but are not critical for basic operations.
@@ -39,6 +40,7 @@ Specifies the quality attributes to enhance the application's usability, reliabi
 
 ### Optional Attributes:
 - The app should be accessibility compliant (e.g., WCAG standards).
+- The app should track/display the number of items.
 
 ## Constraints
 Constraints define the limitations which the system must operate within. "Napkin math" can also be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
