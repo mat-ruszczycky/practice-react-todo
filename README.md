@@ -137,16 +137,25 @@ Outlines the step-by-step flow user(s) take to work within the application/syste
 
 ![FPO](./docs/images/fpo.png)
 
+## Rendering Approach
+web rendering revolve around two main approaches: Client-Side Rendering (CSR) and Server-Side Rendering (SSR).
+
+### Client-Side Rendering (CSR):
+Client-Side Rendering (CSR), the rendering process is managed by the client rather than the server. This involves the client generating the majority of the page's structure, with content being produced through JavaScript.
+
+### Server-Side Rendering (SSR):
+Server-Side Rendering (SSR) typically involves rendering a web page on the server and sending the fully-rendered HTML to the client.
+
 # 03. Data Model
 Various data entities and their fields that can exist on the Client, Server or both.
 
-This can be done with tables....
+## Server
 
-## Storage
-TBD..
+## Client
 
-## State(s)
-TBD..
+### Persistent
+
+### Ephemeral
 
 ## Prop(s)
 TBD..
