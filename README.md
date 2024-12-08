@@ -54,7 +54,7 @@ Constraints define the limitations within which the system must operate.
 Identify the essential components of the product and analyze their interconnections.
 
 ## UI Mock-up aka Wire-frame
-Similar to using "napkin math" for quantitative factors, "napkin sketch" can be used to roughly sketch or wireframe an application’s UI, helping to better visualize and provide a qualitative overview of the system.
+Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly sketch or wireframe an application’s UI, helping to better visualize and provide a qualitative overview of the system.
 
 ![FPO](./docs/images/fpo.png)
 
