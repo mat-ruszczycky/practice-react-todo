@@ -9,6 +9,7 @@ Credit to following sources for research:
 - https://www.youtube.com/@shivam_bhalla
 - https://www.youtube.com/@FrontEndEngineer
 - https://www.youtube.com/@d.zhiganov
+- https://github.com/tastejs/todomvc
 
 # Requirements
 Descriptions of what needs to be built; categorized as functional, non-functional, and constraints.
