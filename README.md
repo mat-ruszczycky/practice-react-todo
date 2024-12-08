@@ -28,6 +28,7 @@ Behaviors and features an application must have. Specifies what the system is ex
 - User(s) could be able to delete TODO items from the list.
 - User(s) could be able to filter TODO items by status, priority, due date, or alphabetical order.
 - User(s) could be able to swtich between different views.
+- User(s) could be able to search through TODO items.
 
 ## Non-Functional
 Specifies the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
