@@ -98,7 +98,7 @@ TBD...
 ![FPO](./docs/images/fpo.png)
 
 # Data Model(s)
-TBD...
+TBD...use tables
 
 ## Cache / DB Store
 TBD...
@@ -110,13 +110,21 @@ TBD...
 TBD...
 
 # Interface Definition(s)
-TBD...
+TBD...use interfaces/JSON
 
 ## Event(s)
 TBD...
 
 ## API
 TBD...
+
+### GET
+
+### POST
+
+### PUT
+
+### DELETE
 
 ## Response(s)
 TBD...
