@@ -35,13 +35,13 @@ Behaviors and/or features of user actions, events or business needs that the app
 Describes the quality attributes of the application's/system's usability, reliability, and performance but are not critical for basic operations.
 
 ### Required Attributes:
-- The app/system must be accessible via a profile or authentication for user(s).
 - The app/system must be responsive and functional across desktop and mobile devices.
 - The app/system must be have minimal response times.
-- The app/system must have a Back-End that is scalable to accommodate increasing users and tasks.
-- The app/system must be securely stored for user(s) data; following best practices for encryption and data privacy.
 
 ### Optional Attributes:
+- The app/system should be accessible via a profile or authentication for user(s).
+- The app/system should have a Back-End that is scalable to accommodate increasing users and tasks.
+- The app/system should be securely stored for user(s) data; following best practices for encryption and data privacy.
 - The app/system should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
 - The app/system should track/display the number of items.
 
