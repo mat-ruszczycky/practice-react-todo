@@ -31,7 +31,7 @@ Behaviors and/or features based on user actions, events or business needs that t
 - User(s) could be able to search through TODO items.
 
 ## Non-Functional
-Details the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
+Describes the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
 
 ### Required Attributes:
 - The app must be accessible via a profile or authentication for user(s).
