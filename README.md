@@ -95,12 +95,12 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
 ```
 
 ## Sequence Diagram(s)
-Sequence Diagram: “A sequence diagram visualizes the interactions between actors and systems by mapping requests and responses over time, helping to define user flows, events, and endpoints.”
+Visualizes the interactions between actors and systems by mapping requests and responses over time, helping to define user flows, events, and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
 ## User-flow(s)
-User Flow: “A user flow outlines the step-by-step journey a user takes to achieve a goal within a system, revealing key interactions, decision points, and events that can inform interface design.”
+Outlines the step-by-step journey a user takes to achieve a goal within a system, revealing key interactions, decision points, and events that can inform interface design.
 
 ![FPO](./docs/images/fpo.png)
 
@@ -111,22 +111,16 @@ Describe the various data entities, the fields they contain and which component(
 | Header 1     | Header 2     | Header 3     |
 |:-------------|:-------------|:-------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 ## State(s)
 | Header 1     | Header 2     | Header 3     |
 |:-------------|:-------------|:-------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 ## Prop(s)
 | Header 1     | Header 2     | Header 3     |
 |:-------------|:-------------|:-------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 # 04. Interface Definition(s)
 Identify the key components of the product and how they are related to each other.
@@ -188,11 +182,20 @@ TBD
 # 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
 
-User Experience
-Network
-Multilingual Support
-Multi-device Support
-Security
+## User Experience
+TBD...
+
+## Network
+TBD...
+
+## Multilingual Support
+TBD...
+
+## Multi-device Support
+TBD...
+
+## Security
+TBD...
 
 ## Rendering
 TBD...
