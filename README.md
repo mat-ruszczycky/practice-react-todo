@@ -16,17 +16,17 @@ Descriptions of what needs to be built, commonly categorized as functional, non-
 Behaviors and features an application must have. Specifies what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Required Behaviors &amp; Features:
-- User(s) must access a profile or authentication to access a personalized TODO list.
+- User(s) must access a profile or authentication to access app.
 - User(s) can read a list of personal TODO items.
 - User(s) can create TODO items to the list.
 - User(s) can mark TODO items on the list as complete.
 
 ### Optional Behaviors &amp; Features:
-- User(s) can edit TODO items (e.g., update title, description, or details).
-- User(s) can assign priority levels to TODO items.
-- User(s) can set deadlines for TODO items.
-- User(s) can delete TODO items from the list.
-- User(s) can filter TODO items by status, priority, due date, or alphabetical order.
+- User(s) could be able to edit TODO items (e.g., update title, description, or details).
+- User(s) could be able to assign priority levels to TODO items.
+- User(s) could be able to set deadlines for TODO items.
+- User(s) could be able to delete TODO items from the list.
+- User(s) could be able to filter TODO items by status, priority, due date, or alphabetical order.
 
 ## Non-Functional
 Specifies the quality attributes to enhance the application's usability, reliability, and performance but are not critical for basic operations.
@@ -41,15 +41,15 @@ Specifies the quality attributes to enhance the application's usability, reliabi
 - The app should be accessibility compliant (e.g., WCAG standards).
 
 ## Constraints
-Constraints define the limitations which the system must operate within.
+Constraints define the limitations which the system must operate within. "Napkin math" can also be used to identify constraints that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
 
-- Tasks must persist between sessions using methods like `localStorage`, database, or cloud.
-- App doesn’t support offline mode, requires a stable internet connection.
-- Source code must be stored on GitHub.
-- Deployment must utilize AWS services.
-- The project must operate within a limited budget and be open-source.
-- The application is web-based only and will not include native iOS or Android versions.
-- "Napkin math" can also be used to identify constraints that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
+- The app needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
+- The app doesn't need support offline mode, requires a stable internet connection.
+- The app needs it source code stored on GitHub.
+- The app needs to utilize AWS services for CI/CD in addition to other micro services.
+- The app needs to operate within a limited budget, thus be open-source.
+- The app needs to be web-based only and will not support native iOS or Android.
+- The app needs to "Napkin math" can also be used to identify constraints that the system may 
 
 # Architecture Design
 Identify the essential components of the product and analyze their relationships to one another.
