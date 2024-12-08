@@ -67,7 +67,7 @@ Depending on chosen design pattern(s) of the application, a high-level diagram f
 
 Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
 
-It may also be helpful to generate markup for a purposed implementation.
+It may also be helpful to generate markup for a purposed implementation. Props, state, and the more granular workings of the components can be discussed and explained during data modeling / prop design, and interface / api / state definitions.
 
 ```jsx
 <App>
@@ -91,7 +91,7 @@ TBD...
 
 ![FPO](./docs/images/fpo.png)
 
-# Data Model / State Design
+# Data Model / Prop Design
 TBD...
 
 # Interface Definitions / API / State
