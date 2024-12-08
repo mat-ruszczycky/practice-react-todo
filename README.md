@@ -71,14 +71,14 @@ It may also be helpful to generate markup for a purposed implementation.
 
 ```jsx
 <ToDo>
-  <ToDoHeader />
+  <ToDoHeader/>
     <ToDoList>
-      <ToDoItem>
-      <ToDoItem>
-      <ToDoItem>		
+      <ToDoItem/>
+      <ToDoItem/>
+      <ToDoItem/>		
       ...		
-      </ToDoList>
-  <ToDoFooter />
+    </ToDoList>
+  <ToDoFooter/>
 </ToDo>
 ```
 
