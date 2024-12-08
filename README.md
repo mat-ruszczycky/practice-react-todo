@@ -115,7 +115,7 @@ TBD...use interfaces/JSON
 ## Event(s)
 TBD...
 
-## API
+## Request(s) API
 TBD...
 
 ### GET
