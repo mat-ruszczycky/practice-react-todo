@@ -94,8 +94,11 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
 </App>
 ```
 
-## Sequence / User-flows Diagram(s)
-TBD...
+## Sequence Diagram(s)
+Sequence Diagram: “A sequence diagram visualizes the interactions between actors and systems by mapping requests and responses over time, helping to define user flows, events, and endpoints.”
+
+## User-flows
+User Flow: “A user flow outlines the step-by-step journey a user takes to achieve a goal within a system, revealing key interactions, decision points, and events that can inform interface design.”
 
 ![FPO](./docs/images/fpo.png)
 
