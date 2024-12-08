@@ -149,41 +149,19 @@ Server-Side Rendering (SSR) typically involves rendering a web page on the serve
 # 03. Data Model
 Various data entities and their fields that can exist on the Client, Server or both.
 
-## Server
-
-
-## Client
-
-### Persistent
-
-### Ephemeral
-
-
-## Client
-
-### Persistent
-
-### Ephemeral
-
-
-
-## Prop(s)
-TBD..
+- Server
+- Client
+- Local Storage
+- State
+- Prop
 
 # 04. Interface
 Defined interactions between components in the application/product, functionality of the various APIs, their parameters and responses. 
 
-## Server - Client
-TBD..
-
-#### Response
-```json
-TBD
-```
-
-## Client - Client
-TBD...
-
+- Server - Client
+- Client - Client
+- Request(s)
+- Response(s)
 
 # 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
@@ -191,6 +169,7 @@ Discuss about possible optimization opportunities and specific areas of interest
 - Performance
 - User Experience
 - Rendering
+- SEO
 - Accessibility (a11y)
 - Network
 - Internationalization (i18n)
