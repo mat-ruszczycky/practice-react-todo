@@ -58,30 +58,39 @@ Limitations the system needs to operate within.
 "Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other factors.
 
 ```
-**User Estimates**
-- **Daily Active Users (DAU)**: Assume 100 users in the initial phase.
-- **Todos Created per User**: Each user creates 5 todos per day.  
-  - **Total Todos per Day**:  
-    \( 100 \text{ users} \times 5 \text{ todos per user} = 500 \text{ todos/day} \).
+User:
+	- Daily Active Users (DAU): Assume 100 users in the initial phase.
+	- TODOs Created per User: Each user creates 5 TODOs per day.  
+	- Total TODOs per Day:  
+	100 users * 5 TODOs per user = 500 TODOs/day
 
-**Storage Estimates**
-- **Todo Data**: Assume each todo has:  
-  - `id`: 4 bytes (integer).  
-  - `text`: 100 characters max (100 bytes).  
-  - `completed`: 1 byte (boolean).  
-  - Metadata (e.g., timestamps): 8 bytes.
+Storage Estimates:
+	- TODO Data: Assume each TODO has:  
+		* `id`: 4 bytes (integer).  
+		* `text`: 100 characters max (100 bytes).  
+		* `completed`: 1 byte (boolean).  
+		* `metadata` (e.g., timestamps): 8 bytes.
 
-**API Load**
-- **Todo Fetches**: Assume users fetch their todo lists 5 times daily.  
-  - **API Calls for Fetching**:  
-    \( 100 \text{ users} \times 5 \text{ fetches/user/day} = 500 \text{ API calls/day} \).  
+	Total size per TODO: 4 + 100 + 1 + 8 = 113 bytes.  
 
-- **Todo Additions**: Assume users add todos 5 times daily.  
-  - **API Calls for Adding**:  
-    \( 100 \text{ users} \times 5 \text{ adds/user/day} = 500 \text{ API calls/day} \).  
+		- Storage Needed Per Day: 500 TODOs/day * 113 bytes/TODO = 56,500 bytes/day ≈ 56.5 KB/day.  
 
-- **Total API Calls Per Day**:  
-  \( 500 \text{ fetches/day} + 500 \text{ adds/day} = 1,000 \text{ API calls/day} \).
+		- Monthly Storage: 56.5 KB/day * 30 days = 1.7 MB/month.
+
+API Load:
+	- TODO Fetches: Assume users fetch their TODO lists 5 times daily.  
+	- API Calls for Fetching: 100 users * 5 fetches/user/day = 500 API calls/day.  
+
+	- TODO Additions: Assume users add TODOs 5 times daily.  
+	- API Calls for Adding: 100 users * 5 adds/user/day = 500 API calls/day.  
+
+	- Total API Calls Per Day: 500 fetches/day + 500 adds/day = 1,000 API calls/day.
+
+Scaling:
+	If the user base grows to 10,000 users:
+		- Daily TODOs: 10,000 * 5 = 50,000  TODOs/day.  
+		- Monthly Storage: 50,000 * 113  bytes/day * 30 ≈ 170  MB/month.  
+		- API Calls: 10,000 * 5 * 2 = 100,000  calls/day.  
 ```
 
 # 02. Architecture
