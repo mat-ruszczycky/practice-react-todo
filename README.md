@@ -1,7 +1,7 @@
 # Practice React TODO App
-Repository for practicing React and Front-End system design using a TODO app as the subject. 
+Repository for practicing React and Front-End system design using a TODO app. 
 
-Credit to following sources for research into process:
+Credit to following sources for research into the process:
 
 - https://www.greatfrontend.com/system-design
 - https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems
@@ -10,7 +10,7 @@ Credit to following sources for research into process:
 - https://www.youtube.com/@d.zhiganov
 
 # Requirements
-Descriptions of what needs to be built, commonly categorized as functional, non-functional, and constraints.
+Descriptions of what needs to be built, categorized as functional, non-functional, and constraints.
 
 ## Functional
 Behaviors and features an application must have. Specifies what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
@@ -30,7 +30,7 @@ Behaviors and features an application must have. Specifies what the system shoul
 - User(s) could be able to swtich between different views.
 
 ## Non-Functional
-Specifies the quality attributes to enhance the application's usability, reliability, and performance but are not critical for basic operations.
+Specifies the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
 
 ### Required Attributes:
 - The app must be responsive and functional across desktop and mobile devices.
@@ -43,7 +43,7 @@ Specifies the quality attributes to enhance the application's usability, reliabi
 - The app should track/display the number of items.
 
 ## Constraints
-Constraints define the limitations which the system must operate within. "Napkin math" can also be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
+Constraints are the limitations which the system must operate within. "Napkin math" can be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
 
 - The app needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
 - The app doesn't need support offline mode, requires a stable internet connection.
