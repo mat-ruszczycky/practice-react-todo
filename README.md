@@ -54,10 +54,10 @@ Constraints are limitations which the system must operate within. "Napkin math" 
 - The app needs to operate within a limited budget, thus be open-source.
 - The app needs to be web-based only and will not support native iOS or Android.
 
-# Architecture Design
+# Architecture
 Identify the essential components of the application and analyze the relationships to one another.
 
-## UI Mock-up aka Wire-frame
+## UI Mock-up aka Wire-frame Design(s)
 Similar to using "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's UI, to better visualize high overview of the system.
 
 ![FPO](./docs/images/fpo.png)
