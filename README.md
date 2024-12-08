@@ -1,4 +1,4 @@
-## Practice React TODO App
+# Practice React TODO App
 Project for practicing React development and Front-End application/system design using a TODO app. 
 
 Credit to following sources for research:
@@ -11,18 +11,18 @@ Credit to following sources for research:
 - https://www.youtube.com/@d.zhiganov
 - https://github.com/tastejs/todomvc
 
-# 01. Requirements
+## 01. Requirements
 Descriptions of what needs to be built; categorized as functional, non-functional, and constraints.
 
-## Functional
+### Functional
 Behaviors and/or features of user actions, events or business needs that the application/system is expected to have.
 
-### Required Behaviors/Features:
+#### Required Behaviors/Features:
 - User(s) can read TODO items as a list.
 - User(s) can create TODO items for the list.
 - User(s) can update TODO items on the list as complete.
 
-### Optional Behaviors/Features:
+#### Optional Behaviors/Features:
 - User(s) could be able to edit TODO items.
 - User(s) could be able to assign priority levels to TODO items.
 - User(s) could be able to set deadlines for TODO items.
@@ -31,21 +31,21 @@ Behaviors and/or features of user actions, events or business needs that the app
 - User(s) could be able to switch between different views.
 - User(s) could be able to search through TODO items.
 
-## Non-Functional
+### Non-Functional
 Describes the quality attributes of the application's/system's usability, reliability, and performance but are not critical for basic operations.
 
-### Required Attributes:
+#### Required Attributes:
 - The app/system must be responsive and functional across desktop and mobile devices.
 - The app/system must be have minimal response times.
 
-### Optional Attributes:
+#### Optional Attributes:
 - The app/system should be viewable via a profile or authentication for user(s).
 - The app/system should have a storage that is scalable for increasing users and tasks.
 - The app/system should secure user(s) data; follows best practices for encryption and data privacy.
 - The app/system should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
 - The app/system should track/display the number of items.
 
-## Constraints
+### Constraints
 Limitations the system needs to operate within. 
 
 - The app/system needs data to persist using methods like `localStorage`, database, or cloud services.
@@ -88,15 +88,15 @@ Scaling:
     - API Calls: 10,000 * 5 * 2 = 100,000  calls/day.  
 ```
 
-# 02. Architecture
+## 02. Architecture
 Identify the essential pieces of the application/system and analyze the relationships to one another.
 
-## UI Mock-up aka Wire-frame Design(s)
+### UI Mock-up aka Wire-frame Design(s)
 Like "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's/system's UI to better visualize a high overview everything.
 
 ![FPO](./docs/images/fpo.png)
 
-## High Level / Component Tree (Dependency Graph) Diagram(s)
+### High Level / Component Tree (Dependency Graph) Diagram(s)
 Depending on chosen frameworks/libs of the application/system, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
 ![FPO](./docs/images/fpo.png)
@@ -127,26 +127,26 @@ Generating markup for a purposed implementation is also helpful. Props, state, a
 </App>
 ```
 
-## Sequence Diagram(s)
+### Sequence Diagram(s)
 Visualizes the interactions between actors and the application/system by mapping requests and responses over time, helping to define user flows, events, and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
-## User-flow(s)
+### User-flow(s)
 Outlines the step-by-step flow user(s) take to work within the application/system, helping to further events and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
-## Rendering Approach
+### Rendering Approach
 web rendering revolve around two main approaches: Client-Side Rendering (CSR) and Server-Side Rendering (SSR).
 
-### Client-Side Rendering (CSR):
+#### Client-Side Rendering (CSR):
 Client-Side Rendering (CSR), the rendering process is managed by the client rather than the server. This involves the client generating the majority of the page's structure, with content being produced through JavaScript.
 
-### Server-Side Rendering (SSR):
+#### Server-Side Rendering (SSR):
 Server-Side Rendering (SSR) typically involves rendering a web page on the server and sending the fully-rendered HTML to the client.
 
-# 03. Data Model
+## 03. Data Model
 Various data entities and their fields that can exist on the Client, Server or both.
 
 - Server
@@ -155,7 +155,7 @@ Various data entities and their fields that can exist on the Client, Server or b
 - State
 - Prop
 
-# 04. Interface
+## 04. Interface
 Defined interactions between components in the application/product, functionality of the various APIs, their parameters and responses. 
 
 - Server - Client
@@ -163,7 +163,7 @@ Defined interactions between components in the application/product, functionalit
 - Request(s)
 - Response(s)
 
-# 05. Optimization(s)
+## 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
 
 - Performance
