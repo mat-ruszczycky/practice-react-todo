@@ -54,16 +54,16 @@ Constraints define the limitations within which the system must operate.
 Identify the essential components of the product and analyze their interconnections.
 
 ## UI Mock-up aka Wire-frame
-Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly sketch or wireframe an application’s UI, helping to better visualize and provide a qualitative overview of the system.
+Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly sketch or wireframe an application’s UI, helping to better visualize and provide overview of the system.
 
 ![FPO](./docs/images/fpo.png)
 
 ## High Level Design / Component Tree (Graph)
 Depending on the chosen technical design pattern for the application, you may opt to create a high-level diagram tailored to traditional patterns such as MVC or MVVM. 
 
-Alternatively, the diagram can take the form of a tree (graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based systems. 
+Or, the diagram can take the form of a tree (graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based architecture. 
 
-It may also be helpful to generate markup for purposed implementation.
+It may also be helpful to generate markup for a purposed implementation.
 
 ![FPO](./docs/images/fpo.png)
 
