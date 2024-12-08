@@ -129,7 +129,7 @@ Describe the various data entities, the fields they contain and which component(
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 # 04. Interface Definition(s)
-TBD...use interfaces/JSON
+Identify the key components of the product and how they are related to each other.
 
 ## Event(s)
 TBD...
