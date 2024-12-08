@@ -1,7 +1,7 @@
 # Practice React TODO App
 Repository for practicing React development and Front-End system design using a TODO app. 
 
-Credit to following sources for research into the process:
+Credit to following sources for research:
 
 - https://www.greatfrontend.com/system-design
 - https://www.geeksforgeeks.org/what-is-system-design-learn-system-design
