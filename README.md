@@ -138,13 +138,13 @@ Outlines the step-by-step flow user(s) take to work within the application/syste
 ![FPO](./docs/images/fpo.png)
 
 ### Rendering Approach
-Web rendering strategies determine how an application page's content is generated and displayed to the user, either through server-side rendering (HTML created on the server) or client-side rendering (HTML generated in the browser). These strategies impact factors such as load speed, SEO, and interactivity.
+Rendering strategies determine how an application page's content is generated and displayed to the user, either through server-side rendering (HTML created on the server) or client-side rendering (HTML generated in the browser). These strategies impact factors such as load speed, SEO, and interactivity.
 
 #### Client-Side Rendering (CSR):
-Client-Side Rendering (CSR) shifts the rendering process to the client, where JavaScript generates most of the page's structure. The browser receives minimal HTML, fetches data, and dynamically renders content, making it ideal for highly interactive applications.
+Shifts the rendering process to the client, where JavaScript generates most of the page's structure. The browser receives minimal HTML, fetches data, and dynamically renders content, making it ideal for highly interactive applications.
 
 #### Server-Side Rendering (SSR):
-Server-Side Rendering (SSR) generates a fully-rendered HTML page on the server and sends it to the client, enabling faster initial load times and improved SEO.
+Generates a fully-rendered HTML page on the server and sends it to the client, enabling faster initial load times and improved SEO.
 
 ## 03. Data Model
 Various data entities and their fields that can exist on the Client, Server or both.
