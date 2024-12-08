@@ -13,7 +13,7 @@ Credit to following sources for research into the process:
 Descriptions of what needs to be built, categorized as functional, non-functional, and constraints.
 
 ## Functional
-Behaviors and features an application must have. Specifies what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
+Behaviors and features an application must have. Specifies what the system is expected to do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Required Behaviors &amp; Features:
 - User(s) must access a profile or authentication to access app.
