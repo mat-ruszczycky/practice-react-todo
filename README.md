@@ -1,4 +1,4 @@
-# Practice React TODO App
+## Practice React TODO App
 Project for practicing React development and Front-End application/system design using a TODO app. 
 
 Credit to following sources for research:
@@ -188,10 +188,16 @@ TBD
 # 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
 
+User Experience
+Network
+Multilingual Support
+Multi-device Support
+Security
+
 ## Rendering
 TBD...
 
-## A11y
+## Accessibility (a11y)
 TBD...
 
 ## Performance
