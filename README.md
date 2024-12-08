@@ -45,7 +45,7 @@ Describes the quality attributes of the application's usability, reliability, an
 - The app should track/display the number of items.
 
 ## Constraints
-Constraints are limitations which the system must operate within. "Napkin math" can be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
+Limitations which the system must operate within. "Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other quantitative factors.
 
 - The app needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
 - The app doesn't need support offline mode, requires a stable internet connection.
@@ -58,7 +58,7 @@ Constraints are limitations which the system must operate within. "Napkin math" 
 Identify the essential components of the application and analyze the relationships to one another.
 
 ## UI Mock-up aka Wire-frame Design(s)
-Similar to using "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's UI, to better visualize high overview of the system.
+Similar to "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's UI, to better visualize high overview of the system.
 
 ![FPO](./docs/images/fpo.png)
 
