@@ -39,9 +39,9 @@ Describes the quality attributes of the application's/system's usability, reliab
 - The app/system must be have minimal response times.
 
 ### Optional Attributes:
-- The app/system should be accessible via a profile or authentication for user(s).
-- The app/system should have a Back-End that is scalable to accommodate increasing users and tasks.
-- The app/system should securely user(s) data; follows best practices for encryption and data privacy.
+- The app/system should be viewable via a profile or authentication for user(s).
+- The app/system should have a storage that is scalable for increasing users and tasks.
+- The app/system should secure user(s) data; follows best practices for encryption and data privacy.
 - The app/system should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
 - The app/system should track/display the number of items.
 
