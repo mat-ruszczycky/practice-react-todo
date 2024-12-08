@@ -61,7 +61,7 @@ Limitations the system needs to operate within.
 Identify the essential pieces of the application/system and analyze the relationships to one another.
 
 ## UI Mock-up aka Wire-frame Design(s)
-Similar to "napkin math" of constraints, a "napkin sketch" can be used to wire-frame an application's/system's UI, to better visualize a high overview everything.
+Like "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's/system's UI to better visualize a high overview everything.
 
 ![FPO](./docs/images/fpo.png)
 
@@ -70,11 +70,11 @@ Depending on chosen frameworks/libs of the application/system, a high-level diag
 
 ![FPO](./docs/images/fpo.png)
 
-Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based (React, Svelte, Angular, etc...) architecture.
+Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based lib (React, Svelte, Angular, etc...).
 
 ![FPO](./docs/images/fpo.png)
 
-It may also be helpful to generate markup for a purposed implementation. Props, state, and the more granular workings of the application/system can be discussed during data modeling / prop design, and interface / API / state definitions.
+Generating markup for a purposed implementation is also helpful. Props, state, and the more granular workings of the application/system can be discussed during data modeling and interface definitions.
 
 ```jsx
 <App>
