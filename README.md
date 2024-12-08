@@ -55,7 +55,7 @@ Limitations which the system must operate within. "Napkin math" can be used to i
 - The app needs to be web-based only and will not support native iOS or Android.
 
 # Architecture
-Identify the essential components of the application and analyze the relationships to one another.
+Identify the essential pieces of the application and analyze the relationships to one another.
 
 ## UI Mock-up aka Wire-frame Design(s)
 Similar to "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's UI, to better visualize high overview of the system.
