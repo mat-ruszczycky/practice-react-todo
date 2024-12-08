@@ -64,7 +64,7 @@ Similar to using "napkin math" for quantitative factors, a "napkin sketch" can b
 
 ![FPO](./docs/images/fpo.png)
 
-## High Level Design / Component Tree (Dependency Graph)
+## High Level Diagram / Component Tree (Dependency Graph)
 Depending on the chosen design pattern(s) for the application, using a high-level diagram tailored to traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
 Or, the diagram can take the form of a tree (dependency graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
