@@ -18,7 +18,7 @@ Behaviors and/or features based on user actions, events or business needs that t
 
 ### Required Behaviors/Features:
 - User(s) can read a list of TODO items.
-- User(s) can create TODO items to the list.
+- User(s) can create TODO items for the list.
 - User(s) can update TODO items on the list as complete.
 
 ### Optional Behaviors/Features:
