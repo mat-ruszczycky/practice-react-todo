@@ -41,14 +41,14 @@ Describes the quality attributes of the application's/system's usability, reliab
 ### Optional Attributes:
 - The app/system should be accessible via a profile or authentication for user(s).
 - The app/system should have a Back-End that is scalable to accommodate increasing users and tasks.
-- The app/system should be securely stored for user(s) data; following best practices for encryption and data privacy.
+- The app/system should securely user(s) data; follows best practices for encryption and data privacy.
 - The app/system should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
 - The app/system should track/display the number of items.
 
 ## Constraints
 Limitations which the system must operate within. "Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other quantitative factors.
 
-- The app/system needs tasks to persist between sessions using methods like `localStorage`, database, or cloud services.
+- The app/system needs data to persist using methods like `localStorage`, database, or cloud services.
 - The app/system needs a stable internet connection, does NOT support offline mode (PWA).
 - The app/system needs it source code stored on GitHub.
 - The app/system needs to utilize AWS services for CI/CD in addition to other micro services.
