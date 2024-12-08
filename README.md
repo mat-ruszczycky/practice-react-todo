@@ -52,10 +52,12 @@ Constraints define the limitations within which the system must operate.
 # Architecture Design
 Identify the essential components of the product and analyze their interconnections.
 
-## UI Mock-up
+## UI Mock-up aka Wire-frame
 ![FPO](./docs/images/fpo.png)
 
-## High Level Design / Component Tree
+## High Level Design / Component Tree (Graph)
+Depending on the chosen technical design pattern for the application, you may opt to create a high-level diagram tailored to traditional patterns such as MVC or MVVM. Alternatively, the diagram can take the form of a tree (graph) that illustrates parent-child relationships and prop and event actions, making it suitable for component-based systems.
+
 ![FPO](./docs/images/fpo.png)
 
 ## Sequence Diagram / User-flows
