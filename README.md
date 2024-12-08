@@ -155,84 +155,36 @@ TBD..
 # 04. Interface Definition(s)
 Define the interface (interact) between components in the product, functionality of the various APIs, their parameters and responses. API is an overloaded term and generally refer to the protocol which software components communicate and request/send data between components. Client and server communicate via network layer APIs (HTTP/WebSockets). Client components generally communicate via functions in the browser runtime. All APIs have three things in common whether they are between the server and the client or between client components:
 
-## Client Side - Event(s) &amp; Handler(s)
+## Server Side - Client
+| Field        | Value                         |
+|:-------------|:------------------------------|
+| HTTP Method  | GET                           |
+| Path         | `/tasks`                      |
+| Description  | Fetched the tasks for a user. |
+
+### Parameters
+| Parameter    | Type                          | Description                |
+|:-------------|:------------------------------|:---------------------------|
+| size         | number                        | Number of results per page |
+
+
+#### Response
+```json
+TBD
+```
+
+## Client - Client
 TBD...
 
-## Server Side - API
-TBD...
-
-### GET:
-
-#### Request
-```jsx
-TBD
-```
-
-#### Response
-```jsx
-TBD
-```
-
-### POST:
-
-#### Request
-```jsx
-TBD
-```
-
-#### Response
-```jsx
-TBD
-```
-
-### PUT:
-
-#### Request
-```jsx
-TBD
-```
-
-#### Response
-```jsx
-TBD
-```
-
-### DELETE:
-
-#### Request
-```jsx
-TBD
-```
-
-#### Response
-```jsx
-TBD
-```
 
 # 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
 
-## Performance
-TBD...
-
-## User Experience
-TBD...
-
-## Rendering
-TBD...
-
-## Accessibility (a11y)
-TBD...
-
-## Network
-TBD...
-
-## Internationalization (i18n)
-TBD...
-
-## Multi-device Support
-TBD...
-
-## Security
-TBD...
-
+- Performance
+- User Experience
+- Rendering
+- Accessibility (a11y)
+- Network
+- Internationalization (i18n)
+- Multi-device Support
+- Security
