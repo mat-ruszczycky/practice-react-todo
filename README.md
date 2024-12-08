@@ -69,7 +69,7 @@ Otherwise, the diagram can be a tree (dependency graph) that shows parent-child 
 
 It may also be helpful to generate markup for a purposed implementation.
 
-```javascript
+```jsx
 <ToDo>
 	...
 </ToDo>
