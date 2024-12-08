@@ -23,7 +23,7 @@ Behaviors and/or features of user actions, events or business needs that the app
 - User(s) can update TODO items on the list as complete.
 
 ### Optional Behaviors/Features:
-- User(s) could be able to edit TODO items (e.g., update title, description, or details).
+- User(s) could be able to edit TODO items.
 - User(s) could be able to assign priority levels to TODO items.
 - User(s) could be able to set deadlines for TODO items.
 - User(s) could be able to delete TODO items from the list.
