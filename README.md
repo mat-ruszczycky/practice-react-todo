@@ -95,17 +95,17 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
 ```
 
 ## Sequence Diagram(s)
-Visualizes the interactions between actors and systems by mapping requests and responses over time, helping to define user flows, events, and endpoints.
+Visualizes the interactions between actors and the application/system by mapping requests and responses over time, helping to define user flows, events, and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
 ## User-flow(s)
-Outlines the step-by-step journey a user takes to achieve a goal within a system, revealing key interactions, decision points, and events that can inform interface design.
+Outlines the step-by-step flow user(s) take to work within the application/system, helping to further events and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
 # 03. Data Model
-Describe the various data entities, the fields they contain and which component(s) they belong to.
+Describe the various data entities and their fields that can exist on the Client, Server or both.
 
 ## Cache / DB Store
 | Header 1     | Header 2     | Header 3     |
@@ -123,12 +123,12 @@ Describe the various data entities, the fields they contain and which component(
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 
 # 04. Interface Definition(s)
-Identify the key components of the product and how they are related to each other.
+Define the interface between components in the product, functionality of the various APIs, their parameters and responses. API is an overloaded term and generally refer to the protocol which software components communicate and request/send data between components. Client and server communicate via network layer APIs (HTTP/WebSockets). Client components generally communicate via functions in the browser runtime. All APIs have three things in common whether they are between the server and the client or between client components:
 
-## Event(s)
+## Client Side - Event(s) &amp; Handler(s)
 TBD...
 
-## API
+## Server Side - API
 TBD...
 
 ### GET:
@@ -182,19 +182,10 @@ TBD
 # 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
 
+## Performance
+TBD...
+
 ## User Experience
-TBD...
-
-## Network
-TBD...
-
-## Multilingual Support
-TBD...
-
-## Multi-device Support
-TBD...
-
-## Security
 TBD...
 
 ## Rendering
@@ -203,5 +194,15 @@ TBD...
 ## Accessibility (a11y)
 TBD...
 
-## Performance
+## Network
 TBD...
+
+## Internationalization (i18n)
+TBD...
+
+## Multi-device Support
+TBD...
+
+## Security
+TBD...
+
