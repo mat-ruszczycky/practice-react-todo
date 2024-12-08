@@ -69,6 +69,7 @@ It may also be helpful to generate markup for purposed implementation.
 
 ## Sequence Diagram / User-flows
 TBD...
+
 ![FPO](./docs/images/fpo.png)
 
 # Data Model / State Design
