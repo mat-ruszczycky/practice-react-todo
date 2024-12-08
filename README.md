@@ -49,7 +49,6 @@ Constraints define the limitations which the system must operate within. "Napkin
 - The app needs to utilize AWS services for CI/CD in addition to other micro services.
 - The app needs to operate within a limited budget, thus be open-source.
 - The app needs to be web-based only and will not support native iOS or Android.
-- The app needs to "Napkin math" can also be used to identify constraints that the system may 
 
 # Architecture Design
 Identify the essential components of the product and analyze their relationships to one another.
