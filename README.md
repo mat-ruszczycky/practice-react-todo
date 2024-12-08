@@ -1,4 +1,4 @@
-# Practice React TODO App
+hi# Practice React TODO App
 Repository for practicing React development and Front-End system design using a TODO app. 
 
 Credit to following sources for research:
@@ -14,7 +14,7 @@ Credit to following sources for research:
 Descriptions of what needs to be built, categorized as functional, non-functional, and constraints.
 
 ## Functional
-Behaviors and/or features based on user actions, events or business needs that the application is expected to have.
+Behaviors and/or features of user actions, events or business needs that the application is expected to have.
 
 ### Required Behaviors/Features:
 - User(s) can read a list of TODO items.
