@@ -14,24 +14,24 @@ Credit to following sources for research into the process:
 Descriptions of what needs to be built, categorized as functional, non-functional, and constraints.
 
 ## Functional
-Behaviors and features an application must have. Specifies what the system is expected to do to meet user needs.
+Behaviors and features based on user actions, events or business needs that the application must have. Specifies what the system is expected to do to meet user needs.
 
-### Required Behaviors &amp; Features:
-- User(s) can read a list of personal TODO items.
+### Required Behaviors/Features:
+- User(s) can read a list of TODO items.
 - User(s) can create TODO items to the list.
-- User(s) can mark TODO items on the list as complete.
+- User(s) can update TODO items on the list as complete.
 
-### Optional Behaviors &amp; Features:
+### Optional Behaviors/Features:
 - User(s) could be able to edit TODO items (e.g., update title, description, or details).
 - User(s) could be able to assign priority levels to TODO items.
 - User(s) could be able to set deadlines for TODO items.
 - User(s) could be able to delete TODO items from the list.
 - User(s) could be able to filter TODO items by status, priority, due date, or alphabetical order.
-- User(s) could be able to swtich between different views.
+- User(s) could be able to switch between different views.
 - User(s) could be able to search through TODO items.
 
 ## Non-Functional
-Specifies the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
+Details the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
 
 ### Required Attributes:
 - The app must be accessible via a profile or authentication for user(s).
@@ -45,7 +45,7 @@ Specifies the quality attributes of the application's usability, reliability, an
 - The app should track/display the number of items.
 
 ## Constraints
-Constraints are the limitations which the system must operate within. "Napkin math" can be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
+Constraints are limitations which the system must operate within. "Napkin math" can be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
 
 - The app needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
 - The app doesn't need support offline mode, requires a stable internet connection.
@@ -55,19 +55,25 @@ Constraints are the limitations which the system must operate within. "Napkin ma
 - The app needs to be web-based only and will not support native iOS or Android.
 
 # Architecture Design
-Identify the essential components of the application and analyze their relationships to one another.
+Identify the essential components of the application and analyze the relationships to one another.
 
 ## UI Mock-up aka Wire-frame
-Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly wire-frame an application's UI, to better visualize overview of the application's system.
+Similar to using "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's UI, to better visualize high overview of the system.
 
 ![FPO](./docs/images/fpo.png)
 
 ## High Level Diagram / Component Tree (Dependency Graph)
-Depending on the chosen design pattern(s) for the application, using a high-level diagram tailored to traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
+Depending on chosen design pattern(s) of the application, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
-Or, the diagram can take the form of a tree (dependency graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
+Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
 
 It may also be helpful to generate markup for a purposed implementation.
+
+```javascript
+<ToDo>
+	...
+</ToDo>
+```
 
 ![FPO](./docs/images/fpo.png)
 
