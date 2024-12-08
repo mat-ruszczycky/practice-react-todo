@@ -92,10 +92,19 @@ TBD...
 
 ![FPO](./docs/images/fpo.png)
 
-# Data Model / Prop Design
+# Data
 TBD...
 
-# Interface / API / State Definition(s)
+## Model Schema
+TBD...
+
+## State Schema
+TBD...
+
+## Prop Schema
+TBD...
+
+# Interface API &amp; Response Definition(s)
 TBD...
 
 # Optimizations / Performance
