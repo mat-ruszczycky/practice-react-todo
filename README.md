@@ -13,7 +13,7 @@ Formal descriptions of what needs to be built, commonly categorized as functiona
 ## Functional
 The behaviors and features an application must have. They specify what the system should do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
-### Core Behaviors &amp; Features:
+### Required Behaviors &amp; Features:
 - User profile/authentication to access a personalized TODO list.
 - Users can read a list of personal TODO items.
 - Users can create TODO items to the list.
@@ -29,7 +29,7 @@ The behaviors and features an application must have. They specify what the syste
 ## Non-Functional
 Specify the quality attributes that enhance the application's usability, reliability, and performance but are not critical for basic operations.
 
-### Core Attributes:
+### Required Attributes:
 - The app must be responsive and functional across desktop and mobile devices.
 - User interactions should have minimal response times.
 - The back-end should be scalable to accommodate increasing numbers of users and tasks.
