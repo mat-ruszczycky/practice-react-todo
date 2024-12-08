@@ -14,7 +14,7 @@ Credit to following sources for research into the process:
 Descriptions of what needs to be built, categorized as functional, non-functional, and constraints.
 
 ## Functional
-Behaviors and features based on user actions, events or business needs that the application must have. Specifies what the system is expected to do to meet user needs.
+Behaviors and/or features based on user actions, events or business needs that the application must have. Specifies what the system is expected to do to meet user needs.
 
 ### Required Behaviors/Features:
 - User(s) can read a list of TODO items.
