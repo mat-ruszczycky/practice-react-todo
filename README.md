@@ -115,18 +115,39 @@ TBD...use interfaces/JSON
 ## Event(s)
 TBD...
 
-## Request(s) API
+## Interface - API
 TBD...
 
-### GET
+## GET
 
-### POST
+### Request(s)
+TBD...
 
-### PUT
+### Response(s)
+TBD...
 
-### DELETE
+## POST
 
-## Response(s)
+### Request(s)
+TBD...
+
+### Response(s)
+TBD...
+
+## PUT
+
+### Request(s)
+TBD...
+
+### Response(s)
+TBD...
+
+## DELETE
+
+### Request(s)
+TBD...
+
+### Response(s)
 TBD...
 
 # Optimization(s)
