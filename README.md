@@ -1,5 +1,5 @@
 # Practice React TODO App
-Repository for practicing React development and Front-End system design using a TODO app. 
+Project for practicing React development and Front-End application/system design using a TODO app. 
 
 Credit to following sources for research:
 
@@ -11,13 +11,13 @@ Credit to following sources for research:
 - https://www.youtube.com/@d.zhiganov
 
 # Requirements
-Descriptions of what needs to be built, categorized as functional, non-functional, and constraints.
+Descriptions of what needs to be built; categorized as functional, non-functional, and constraints.
 
 ## Functional
-Behaviors and/or features of user actions, events or business needs that the application is expected to have.
+Behaviors and/or features of user actions, events or business needs that the application/system is expected to have.
 
 ### Required Behaviors/Features:
-- User(s) can read a list of TODO items.
+- User(s) can read TODO items as a list.
 - User(s) can create TODO items for the list.
 - User(s) can update TODO items on the list as complete.
 
@@ -31,45 +31,45 @@ Behaviors and/or features of user actions, events or business needs that the app
 - User(s) could be able to search through TODO items.
 
 ## Non-Functional
-Describes the quality attributes of the application's usability, reliability, and performance but are not critical for basic operations.
+Describes the quality attributes of the application's/system's usability, reliability, and performance but are not critical for basic operations.
 
 ### Required Attributes:
-- The app must be accessible via a profile or authentication for user(s).
-- The app must be responsive and functional across desktop and mobile devices.
-- The app must be have minimal response times.
-- The app must be have a Back-End that is scalable to accommodate increasing users and tasks.
-- The app must be securely stored for user(s) data; following best practices for encryption and data privacy.
+- The app/system must be accessible via a profile or authentication for user(s).
+- The app/system must be responsive and functional across desktop and mobile devices.
+- The app/system must be have minimal response times.
+- The app/system must be have a Back-End that is scalable to accommodate increasing users and tasks.
+- The app/system must be securely stored for user(s) data; following best practices for encryption and data privacy.
 
 ### Optional Attributes:
-- The app should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
-- The app should track/display the number of items.
+- The app/system should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
+- The app/system should track/display the number of items.
 
 ## Constraints
 Limitations which the system must operate within. "Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other quantitative factors.
 
-- The app needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
-- The app doesn't need support offline mode, requires a stable internet connection.
-- The app needs it source code stored on GitHub.
-- The app needs to utilize AWS services for CI/CD in addition to other micro services.
-- The app needs to operate within a limited budget, thus be open-source.
-- The app needs to be web-based only and will not support native iOS or Android.
+- The app/system needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
+- The app/system doesn't need support offline mode, requires a stable internet connection.
+- The app/system needs it source code stored on GitHub.
+- The app/system needs to utilize AWS services for CI/CD in addition to other micro services.
+- The app/system needs to operate within a limited budget, thus be open-source.
+- The app/system needs to be web-based only and will not support native iOS or Android.
 
 # Architecture
-Identify the essential pieces of the application and analyze the relationships to one another.
+Identify the essential pieces of the application/system and analyze the relationships to one another.
 
 ## UI Mock-up aka Wire-frame Design(s)
-Similar to "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's UI, to better visualize high overview of the system.
+Similar to "napkin math" of constraints, a "napkin sketch" can be used to wire-frame an application's/system's UI, to better visualize a high overview everything.
 
 ![FPO](./docs/images/fpo.png)
 
 ## High Level / Component Tree (Dependency Graph) Diagram(s)
-Depending on chosen frameworks/libs of the application, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
+Depending on chosen frameworks/libs of the application/system, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
 Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based (React, Svelte, Angular, etc...) architecture. 
 
 ![FPO](./docs/images/fpo.png)
 
-It may also be helpful to generate markup for a purposed implementation. Props, state, and the more granular workings of the components can be discussed during data modeling / prop design, and interface / api / state definitions.
+It may also be helpful to generate markup for a purposed implementation. Props, state, and the more granular workings of the application/system can be discussed during data modeling / prop design, and interface / API / state definitions.
 
 ```jsx
 <App>
