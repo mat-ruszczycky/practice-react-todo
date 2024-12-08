@@ -61,15 +61,21 @@ Similar to using "napkin math" for quantitative factors, a "napkin sketch" can b
 ## High Level Design / Component Tree (Graph)
 Depending on the chosen technical design pattern for the application, you may opt to create a high-level diagram tailored to traditional patterns such as MVC or MVVM. 
 
-Alternatively, the diagram can take the form of a tree (graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based systems. It may also be helpful to generate markup for purposed implementation.
+Alternatively, the diagram can take the form of a tree (graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based systems. 
+
+It may also be helpful to generate markup for purposed implementation.
 
 ![FPO](./docs/images/fpo.png)
 
 ## Sequence Diagram / User-flows
+TBD...
 ![FPO](./docs/images/fpo.png)
 
 # Data Model / State Design
+TBD...
 
 # Interface Definitions / API / State
+TBD...
 
 # Optimizations / Performance
+TBD...
