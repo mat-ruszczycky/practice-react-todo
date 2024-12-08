@@ -48,8 +48,8 @@ Describes the quality attributes of the application's/system's usability, reliab
 ## Constraints
 Limitations which the system must operate within. "Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other quantitative factors.
 
-- The app/system needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
-- The app/system doesn't need support offline mode, requires a stable internet connection.
+- The app/system needs tasks to persist between sessions using methods like `localStorage`, database, or cloud services.
+- The app/system needs a stable internet connection, does NOT support offline mode (PWA).
 - The app/system needs it source code stored on GitHub.
 - The app/system needs to utilize AWS services for CI/CD in addition to other micro services.
 - The app/system needs to operate within a limited budget, thus be open-source.
