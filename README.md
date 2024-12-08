@@ -70,16 +70,18 @@ Otherwise, the diagram can be a tree (dependency graph) that shows parent-child 
 It may also be helpful to generate markup for a purposed implementation.
 
 ```jsx
-<ToDo>
-  <ToDoHeader/>
-    <ToDoList>
-      <ToDoItem/>
-      <ToDoItem/>
-      <ToDoItem/>		
-      ...		
-    </ToDoList>
-  <ToDoFooter/>
-</ToDo>
+<App>
+  <ToDo>
+    <ToDoHeader/>
+      <ToDoList>
+        <ToDoItem/>
+        <ToDoItem/>
+        <ToDoItem/>		
+        ...		
+      </ToDoList>
+    <ToDoFooter/>
+  </ToDo>
+</App>
 ```
 
 ![FPO](./docs/images/fpo.png)
