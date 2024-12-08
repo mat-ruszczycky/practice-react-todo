@@ -41,7 +41,7 @@ Specifies the quality attributes to enhance the application's usability, reliabi
 - The app should be accessibility compliant (e.g., WCAG standards).
 
 ## Constraints
-Constraints define the limitations which the system must operate within. "Napkin math" can also be used to identify constraints that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
+Constraints define the limitations which the system must operate within. "Napkin math" can also be used to identify use cases that the system may be subject to, such as time and space complexities in runtime, storage, network load, and other quantitative factors.
 
 - The app needs tasks to persist between sessions using methods like `localStorage`, database, or cloud.
 - The app doesn't need support offline mode, requires a stable internet connection.
