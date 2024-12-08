@@ -105,7 +105,7 @@ User Flow: “A user flow outlines the step-by-step journey a user takes to achi
 ![FPO](./docs/images/fpo.png)
 
 # 03. Data Model
-TBD...use tables
+Describe the various data entities, the fields they contain and which component(s) they belong to.
 
 ## Cache / DB Store
 | Header 1     | Header 2     | Header 3     |
@@ -186,7 +186,7 @@ TBD
 ```
 
 # 05. Optimization(s)
-TBD...
+Discuss about possible optimization opportunities and specific areas of interest when building the product.
 
 ## Rendering
 TBD...
