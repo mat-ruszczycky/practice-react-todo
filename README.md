@@ -67,6 +67,8 @@ Depending on chosen design pattern(s) of the application, a high-level diagram f
 
 Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
 
+![FPO](./docs/images/fpo.png)
+
 It may also be helpful to generate markup for a purposed implementation. Props, state, and the more granular workings of the components can be discussed and explained during data modeling / prop design, and interface / api / state definitions.
 
 ```jsx
@@ -83,8 +85,6 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
   </ToDo>
 </App>
 ```
-
-![FPO](./docs/images/fpo.png)
 
 ## Sequence Diagram / User-flows
 TBD...
