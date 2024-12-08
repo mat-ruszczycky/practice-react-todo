@@ -78,9 +78,13 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
     <ToDoHeader/>
       <ToDoInput/>
       <ToDoList>
+        <ToDoItem key="uuid">
+          <ToDoDescription/>
+          <ToDoStatus completed="true | false"/>
+        </ToDoItem>
         <ToDoItem key="uuid"/>
         <ToDoItem key="uuid"/>
-        <ToDoItem key="uuid"/>		
+        <ToDoItem key="uuid"/>
         ...		
       </ToDoList>
     <ToDoFooter/>
@@ -93,16 +97,16 @@ TBD...
 
 ![FPO](./docs/images/fpo.png)
 
-# Data Schema(s)
+# Data Model(s)
 TBD...
 
-## Cache / Store
+## Cache / DB Store
 TBD...
 
-## State
+## State / Event(s)
 TBD...
 
-## Prop
+## Prop(s)
 TBD...
 
 # Interface Definition(s)
