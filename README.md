@@ -76,6 +76,7 @@ It may also be helpful to generate markup for a purposed implementation. Props, 
 <App>
   <ToDo>
     <ToDoHeader/>
+      <ToDoInput/>
       <ToDoList>
         <ToDoItem key="uuid"/>
         <ToDoItem key="uuid"/>
