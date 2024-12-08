@@ -11,7 +11,7 @@ Credit to following sources for research:
 - https://www.youtube.com/@d.zhiganov
 - https://github.com/tastejs/todomvc
 
-# Requirements
+# 01. Requirements
 Descriptions of what needs to be built; categorized as functional, non-functional, and constraints.
 
 ## Functional
@@ -55,7 +55,7 @@ Limitations which the system must operate within. "Napkin math" can be used to i
 - The app/system needs to operate within a limited budget, thus be open-source.
 - The app/system needs to be web-based only and will not support native iOS or Android.
 
-# Architecture
+# 02. Architecture
 Identify the essential pieces of the application/system and analyze the relationships to one another.
 
 ## UI Mock-up aka Wire-frame Design(s)
@@ -68,7 +68,7 @@ Depending on chosen frameworks/libs of the application/system, a high-level diag
 
 ![FPO](./docs/images/fpo.png)
 
-Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based (React, Svelte, Angular, etc...) architecture. 
+Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based (React, Svelte, Angular, etc...) architecture.
 
 ![FPO](./docs/images/fpo.png)
 
@@ -99,7 +99,7 @@ TBD...
 
 ![FPO](./docs/images/fpo.png)
 
-# Data Model(s)
+# 03. Data Model
 TBD...use tables
 
 ## Cache / DB Store
@@ -123,7 +123,7 @@ TBD...use tables
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
-# Interface Definition(s)
+# 04. Interface Definition(s)
 TBD...use interfaces/JSON
 
 ## Event(s)
@@ -134,53 +134,53 @@ TBD...
 
 ### GET:
 
-#### Request(s)
+#### Request
 ```jsx
 TBD
 ```
 
-#### Response(s)
+#### Response
 ```jsx
 TBD
 ```
 
 ### POST:
 
-#### Request(s)
+#### Request
 ```jsx
 TBD
 ```
 
-#### Response(s)
+#### Response
 ```jsx
 TBD
 ```
 
 ### PUT:
 
-#### Request(s)
+#### Request
 ```jsx
 TBD
 ```
 
-#### Response(s)
+#### Response
 ```jsx
 TBD
 ```
 
 ### DELETE:
 
-#### Request(s)
+#### Request
 ```jsx
 TBD
 ```
 
-#### Response(s)
+#### Response
 ```jsx
 TBD
 ```
 
-# Optimization(s)
+# 05. Optimization(s)
 TBD...
 
 ## Rendering
