@@ -54,14 +54,14 @@ Constraints define the limitations which the system must operate within. "Napkin
 Identify the essential components of the product and analyze their relationships to one another.
 
 ## UI Mock-up aka Wire-frame
-Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly wire-frame an application’s UI, to better visualize overview of the application’s system.
+Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly wire-frame an application's UI, to better visualize overview of the application's system.
 
 ![FPO](./docs/images/fpo.png)
 
 ## High Level Design / Component Tree (Dependency Graph)
-Depending on the chosen design pattern(s) for the application, using a high-level diagram tailored to traditional patterns such as MVC or MVVM is best. 
+Depending on the chosen design pattern(s) for the application, using a high-level diagram tailored to traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
 
-Or, the diagram can take the form of a tree (dependency graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based architecture. 
+Or, the diagram can take the form of a tree (dependency graph) that illustrates parent-child relationships as well as prop and event actions, making it suitable for component-based (React, Svelte, Angular, etc...) architecture. 
 
 It may also be helpful to generate markup for a purposed implementation.
 
