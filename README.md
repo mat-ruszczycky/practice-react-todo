@@ -151,11 +151,21 @@ Various data entities and their fields that can exist on the Client, Server or b
 
 ## Server
 
+
 ## Client
 
 ### Persistent
 
 ### Ephemeral
+
+
+## Client
+
+### Persistent
+
+### Ephemeral
+
+
 
 ## Prop(s)
 TBD..
