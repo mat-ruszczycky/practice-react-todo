@@ -16,7 +16,7 @@ Descriptions of what needs to be built, categorized as functional, non-functiona
 Behaviors and features an application must have. Specifies what the system is expected to do to meet user needs, defining the application's required functionality based on user actions, events, and/or business processes.
 
 ### Required Behaviors &amp; Features:
-- User(s) must access a profile or authenticate to view app.
+- User(s) can access a profile or authenticate to view app.
 - User(s) can read a list of personal TODO items.
 - User(s) can create TODO items to the list.
 - User(s) can mark TODO items on the list as complete.
