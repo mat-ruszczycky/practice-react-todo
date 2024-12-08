@@ -1,4 +1,4 @@
-hi# Practice React TODO App
+# Practice React TODO App
 Repository for practicing React development and Front-End system design using a TODO app. 
 
 Credit to following sources for research:
