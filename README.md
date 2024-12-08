@@ -123,7 +123,7 @@ Describe the various data entities and their fields that can exist on the Client
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 
 # 04. Interface Definition(s)
-Define the interface between components in the product, functionality of the various APIs, their parameters and responses. API is an overloaded term and generally refer to the protocol which software components communicate and request/send data between components. Client and server communicate via network layer APIs (HTTP/WebSockets). Client components generally communicate via functions in the browser runtime. All APIs have three things in common whether they are between the server and the client or between client components:
+Define the interface (interact) between components in the product, functionality of the various APIs, their parameters and responses. API is an overloaded term and generally refer to the protocol which software components communicate and request/send data between components. Client and server communicate via network layer APIs (HTTP/WebSockets). Client components generally communicate via functions in the browser runtime. All APIs have three things in common whether they are between the server and the client or between client components:
 
 ## Client Side - Event(s) &amp; Handler(s)
 TBD...
