@@ -57,7 +57,7 @@ Constraints are the limitations which the system must operate within. "Napkin ma
 - The app needs to be web-based only and will not support native iOS or Android.
 
 # Architecture Design
-Identify the essential components of the product and analyze their relationships to one another.
+Identify the essential components of the application and analyze their relationships to one another.
 
 ## UI Mock-up aka Wire-frame
 Similar to using "napkin math" for quantitative factors, a "napkin sketch" can be used to roughly wire-frame an application's UI, to better visualize overview of the application's system.
