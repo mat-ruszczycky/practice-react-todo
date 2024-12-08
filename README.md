@@ -41,7 +41,7 @@ Details the quality attributes of the application's usability, reliability, and 
 - The app must be securely stored for user(s) data; following best practices for encryption and data privacy.
 
 ### Optional Attributes:
-- The app should be accessibility compliant (e.g., WCAG standards).
+- The app should be accessibility compliant (e.g., [WCAG standards](https://www.wcag.com/resource/what-is-wcag/)).
 - The app should track/display the number of items.
 
 ## Constraints
