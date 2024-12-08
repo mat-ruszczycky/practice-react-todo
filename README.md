@@ -1,5 +1,5 @@
 # Practice React TODO App
-Repository for practicing React and Front-End system design using a TODO app. 
+Repository for practicing React development and Front-End system design using a TODO app. 
 
 Credit to following sources for research into the process:
 
