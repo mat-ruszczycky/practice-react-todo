@@ -4,6 +4,7 @@ Repository for practicing React and Front-End system design using a TODO app.
 Credit to following sources for research into the process:
 
 - https://www.greatfrontend.com/system-design
+- https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/
 - https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems
 - https://www.youtube.com/@shivam_bhalla
 - https://www.youtube.com/@FrontEndEngineer
