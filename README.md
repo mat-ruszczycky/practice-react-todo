@@ -183,7 +183,7 @@ interface Task {
   createdAt: string; // ISO timestamp
 }
 ```
-`
+
 ### Response
 
 ```json
@@ -225,11 +225,30 @@ interface Task {
 ## 04. Interface
 Defined interactions between components in the application/product, functionality of the various APIs, their parameters and responses. 
 
-```
-GET /tasks: Retrieve all tasks.
-POST /tasks: Create a new task.
-PUT /tasks/{id}: Update a task.
-DELETE /tasks/{id}: Delete a task.
+```ts
+interface APIEndpoints {
+  // Retrieve all tasks
+  "GET /tasks": {
+    response: Task[]; // Array of tasks returned by the server
+  };
+
+  // Create a new task
+  "POST /tasks": {
+    request: TaskRequest; // Data sent to create the task
+    response: Task; // Newly created task returned by the server
+  };
+
+  // Update an existing task
+  "PUT /tasks/{id}": {
+    request: TaskRequest; // Updated data for the task
+    response: Task; // Updated task returned by the server
+  };
+
+  // Delete a task
+  "DELETE /tasks/{id}": {
+    response: { message: string }; // Response confirming deletion
+  };
+}
 ```
 
 ## 05. Optimization(s)
