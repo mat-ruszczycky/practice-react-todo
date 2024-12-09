@@ -107,6 +107,8 @@ Otherwise, the diagram can be a tree (dependency graph) that shows parent-child 
 
 ![FPO](./docs/images/fpo.png)
 
+### Markup
+
 Generating markup for a purposed implementation is also helpful. Props, state, and the more granular workings of the application/system can be discussed during data modeling and interface definitions.
 
 ```jsx
@@ -223,7 +225,7 @@ interface Task {
 ## 04. Interface
 Defined interactions between components in the application/system, functionality of the various APIs, their parameters and responses. 
 
-### External Endpoints
+### API Endpoints
 ```ts
 interface APIEndpoints {
   // Retrieve all tasks
@@ -250,10 +252,16 @@ interface APIEndpoints {
 }
 ```
 
-### Internal Endpoints
+### Client
 ...
 
-### Events
+#### Events:
+...
+
+#### State:
+...
+
+#### Props:
 ...
 
 ## 05. Optimization(s)
