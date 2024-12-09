@@ -225,10 +225,12 @@ interface Task {
 ## 04. Interface
 Defined interactions between components in the application/product, functionality of the various APIs, their parameters and responses. 
 
-- Server - Client
-- Client - Client
-- Request(s)
-- Response(s)
+```
+GET /tasks: Retrieve all tasks.
+POST /tasks: Create a new task.
+PUT /tasks/{id}: Update a task.
+DELETE /tasks/{id}: Delete a task.
+```
 
 ## 05. Optimization(s)
 Discuss about possible optimization opportunities and specific areas of interest when building the product.
