@@ -141,8 +141,8 @@ Outlines the step-by-step flow user(s) take to work within the application/syste
 
 ![FPO](./docs/images/fpo.png)
 
-### Rendering Approach
-Rendering strategies determine how an application page's content is generated and displayed to the user, either through server-side rendering (HTML created on the server) or client-side rendering (HTML generated in the browser). These strategies impact factors such as load speed, SEO, and interactivity.
+### Rendering
+Rendering strategies determine how an application's content is generated and displayed to the user. These strategies impact factors such as load speed, SEO, and interactivity.
 
 #### Client-Side Rendering (CSR):
 Shifts the rendering process to the client, where JavaScript generates most of the page's structure. The browser receives minimal HTML, fetches data, and dynamically renders content, making it ideal for highly interactive applications.
@@ -151,7 +151,12 @@ Shifts the rendering process to the client, where JavaScript generates most of t
 Generates a fully-rendered HTML page on the server and sends it to the client, enabling faster initial load times and improved SEO.
 
 ## 03. Data Model
- Data modeling is the process of defining the structure, format, and relationships of the data your application/system will handle. It often involves creating representations of the data that guide how it is retrieved, displayed, and managed on the client.
+Data modeling is the process of defining the structure, format, and relationships of the data your application/system will handle. It often involves creating representations of the data that guide how it is retrieved, displayed, and managed on the client.
+
+Modeling Data: Focus on how your system internally organizes and stores information (backend foundation).
+
+### State
+..
 
 ### Entities
 ```ts
@@ -222,10 +227,14 @@ interface Task {
 }
 ```
 
-## 04. Interface
-Defined interactions between components in the application/system, functionality of the various APIs, their parameters and responses. 
+## 04. Interface API
+Defined interactions between components in the application/system, functionality of the various APIs, their parameters and responses.
 
-### API Endpoints
+Modeling APIs: Focus on how developers or external systems interact with your service (interface design).
+
+### Endpoints
+How does app interact with backend
+
 ```ts
 interface APIEndpoints {
   // Retrieve all tasks
@@ -253,12 +262,9 @@ interface APIEndpoints {
 ```
 
 ### Client
-...
+How do users/developers interact with app
 
 #### Events:
-...
-
-#### State:
 ...
 
 #### Props:
