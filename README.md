@@ -223,7 +223,7 @@ interface Task {
 ## 04. Interface
 Defined interactions between components in the application/system, functionality of the various APIs, their parameters and responses. 
 
-### Endpoints
+### External Endpoints
 ```ts
 interface APIEndpoints {
   // Retrieve all tasks
@@ -249,6 +249,9 @@ interface APIEndpoints {
   };
 }
 ```
+
+### Internal Endpoints
+...
 
 ### Events
 ...
