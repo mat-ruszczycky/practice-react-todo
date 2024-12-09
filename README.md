@@ -55,7 +55,7 @@ Limitations the system needs to operate within.
 - The app/system needs to operate within a limited budget.
 - The app/system needs to be web-based and will not support native iOS or Android.
 
-"Napkin math" can be used to identify time and space complexities in runtime, storage, network load, and other factors.
+"Napkin math" can be used to identify time/space complexities in runtime, storage, network load, and other factors.
 
 ```
 User:
