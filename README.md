@@ -149,13 +149,78 @@ Shifts the rendering process to the client, where JavaScript generates most of t
 Generates a fully-rendered HTML page on the server and sends it to the client, enabling faster initial load times and improved SEO.
 
 ## 03. Data Model
-Various data entities and their fields that can exist on the Client, Server or both.
+ Data modeling is the process of defining the structure, format, and relationships of the data your application will handle. It often involves creating representations of the data that guide how it is retrieved, displayed, and managed on the client.
 
-- Server
-- Client
-- Local Storage
-- State
-- Prop
+### Entities
+
+```ts
+// User Interface
+interface User {
+  id: number;
+  name: string;
+  email: string;
+  createdAt: string; // ISO timestamp
+}
+
+// List Interface
+interface List {
+  id: number;
+  name: string;
+  userId: number; // Foreign key linking to User
+  createdAt: string; // ISO timestamp
+}
+
+// Task Interface
+interface Task {
+  id: number;
+  title: string;
+  description?: string; // Optional field
+  status: "pending" | "completed"; // Enum-like union type
+  dueDate?: string; // ISO timestamp, optional
+  priority: "low" | "medium" | "high";
+  listId: number; // Foreign key linking to List
+  userId: number; // Foreign key linking to User
+  createdAt: string; // ISO timestamp
+}
+```
+`
+### Response
+
+```json
+{
+  "users": [
+    { "id": 1, "name": "Alice", "email": "alice@example.com", "createdAt": "2024-12-08T10:00:00Z" }
+  ],
+  "lists": [
+    { "id": 1, "name": "Work", "userId": 1, "createdAt": "2024-12-08T11:00:00Z" },
+    { "id": 2, "name": "Personal", "userId": 1, "createdAt": "2024-12-08T11:30:00Z" }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Finish project report",
+      "description": "Submit the final report by EOD.",
+      "status": "pending",
+      "dueDate": "2024-12-09T17:00:00Z",
+      "priority": "high",
+      "listId": 1,
+      "userId": 1,
+      "createdAt": "2024-12-08T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Buy groceries",
+      "description": "Milk, eggs, and bread.",
+      "status": "completed",
+      "dueDate": null,
+      "priority": "low",
+      "listId": 2,
+      "userId": 1,
+      "createdAt": "2024-12-08T13:00:00Z"
+    }
+  ]
+}
+```
 
 ## 04. Interface
 Defined interactions between components in the application/product, functionality of the various APIs, their parameters and responses. 
