@@ -1,5 +1,5 @@
 # Practice React TODO App
-Project for practicing React development and Front-End application/system design using a TODO app. 
+Project for practicing React development and Front-End app/system design using a TODO app. 
 
 Credit to following sources for research:
 
@@ -12,10 +12,10 @@ Credit to following sources for research:
 - https://github.com/tastejs/todomvc
 
 ## 01. Requirements
-Descriptions of what needs to be built; categorized as functional, non-functional, and constraints.
+What needs to be built; categorized as functional, non-functional, and constraints.
 
 ### Functional
-Behaviors and/or features of user actions, events or business needs that the application/system is expected to have.
+Behaviors and/or features the app/system is expected to have.
 
 #### Required Behaviors/Features:
 - User(s) can read TODO items as a list.
@@ -32,7 +32,7 @@ Behaviors and/or features of user actions, events or business needs that the app
 - User(s) could be able to search through TODO items.
 
 ### Non-Functional
-Describes the quality attributes of the application's/system's usability, reliability, and performance but are not critical for basic operations.
+Describes the quality attributes of the application's/system's usability, reliability, and performance but not critical for basic operations.
 
 #### Required Attributes:
 - The app/system must be responsive and functional across desktop and mobile devices.
@@ -55,7 +55,7 @@ Limitations the system needs to operate within.
 - The app/system needs to operate within a limited budget.
 - The app/system needs to be web-based and will not support native iOS or Android.
 
-"Napkin math" can be used to identify time/space complexities in runtime, storage, network, and other factors.
+**"Napkin math"** can be used to identify time/space complexities in runtime, storage, network, etc...
 
 ```
 User:
@@ -89,27 +89,25 @@ Scaling:
 ```
 
 ## 02. Architecture
-Identify the essential pieces of the application/system and analyze the relationships to one another.
+Essential pieces of the app/system and the relationships to one another.
 
 ### UI Mock-up aka Wire-frame Design(s)
-Like "napkin math" for constraints, a "napkin sketch" can be used to wire-frame an application's/system's UI to better visualize a high overview everything.
+A "napkin sketch" can be used to wire-frame an app/system's UI to better visualize a high overview everything.
 
 ![FPO](./docs/images/fpo.png)
 
 ### High Level Diagram(s)
-Depending on chosen frameworks/libs of the application/system, a high-level diagram for traditional (VanilliaJS) patterns such as MVC or MVVM is best. 
+A high-level diagram for traditional (VanillaJS) patterns such as MVC or MVVM is best. 
 
 ![FPO](./docs/images/fpo.png)
 
 ### Component Tree (Dependency Graph)
-
-Otherwise, the diagram can be a tree (dependency graph) that shows parent-child relationships as well as prop and event actions, making it great for component-based lib (React, Svelte, Angular, etc...).
+A diagram tree (dependency graph) showing parent-child relationships as well as prop and event actions, making it great for component-based libs.
 
 ![FPO](./docs/images/fpo.png)
 
 ### Markup
-
-Generating markup for a purposed implementation is also helpful. Props, state, and the more granular workings of the application/system can be discussed during data modeling and interface definitions.
+Markup for a purposed implementation can be useful. Props, state, and the more granular workings of the app/system can be discussed during data modeling and interface definitions.
 
 ```jsx
 <App>
@@ -132,33 +130,37 @@ Generating markup for a purposed implementation is also helpful. Props, state, a
 ```
 
 ### Sequence Diagram(s)
-Visualizes the interactions between actors and the application/system by mapping requests and responses over time, helping to define user flows, events, and endpoints.
+Shows interactions between actors and the app/system by mapping requests and responses over time, helping to define user flows, events, and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
 ### User-flow(s)
-Outlines the step-by-step flow user(s) take to work within the application/system, helping to further events and endpoints.
+Outlines the step-by-step flow user(s) take to work within the app/system, helping to further events and endpoints.
 
 ![FPO](./docs/images/fpo.png)
 
-### Rendering
-Rendering strategies determine how an application's content is generated and displayed to the user. These strategies impact factors such as load speed, SEO, and interactivity.
+### Rendering Strategies
+Determines how an app's content is generated and displayed to the user. Can impact factors such as load speed, SEO, and interactivity.
 
 #### Client-Side Rendering (CSR):
-Shifts the rendering process to the client, where JavaScript generates most of the page's structure. The browser receives minimal HTML, fetches data, and dynamically renders content, making it ideal for highly interactive applications.
+Rendering process is on the client; JavaScript generates most of the app's structure. The browser receives minimal HTML, fetches data, and dynamically renders content, making it ideal for highly interactive applications.
 
 #### Server-Side Rendering (SSR):
 Generates a fully-rendered HTML page on the server and sends it to the client, enabling faster initial load times and improved SEO.
 
 ## 03. Data Model
-Data modeling is the process of defining the structure, format, and relationships of the data your application/system will handle. It often involves creating representations of the data that guide how it is retrieved, displayed, and managed on the client.
-
-Modeling Data: Focus on how your system internally organizes and stores information (backend foundation).
+Focus on how the app/system internally organizes and stores information.
 
 ### State
-..
+Client state
+
+```TS
+// TBD
+```
 
 ### Entities
+TBD..
+
 ```ts
 // User Interface
 interface User {
@@ -191,6 +193,8 @@ interface Task {
 ```
 
 ### Response
+TBD..
+
 ```json
 {
   "users": [
@@ -228,12 +232,11 @@ interface Task {
 ```
 
 ## 04. Interface API
-Defined interactions between components in the application/system, functionality of the various APIs, their parameters and responses.
+Focus on how developers or external systems interact with app/system.
 
-Modeling APIs: Focus on how developers or external systems interact with your service (interface design).
 
 ### Endpoints
-How does app interact with backend
+How does app/system interact with server
 
 ```ts
 interface APIEndpoints {
@@ -262,7 +265,7 @@ interface APIEndpoints {
 ```
 
 ### Client
-How do users/developers interact with app
+How do users/developers interact with app/system
 
 #### Events:
 ...
